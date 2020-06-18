@@ -36,7 +36,7 @@ for (var i = 1; i < colors.length; i++) {
 }
 console.log(str3);
 
-//case 1到case3可以利用一个函数表示：
+//case 1到case3可以利用一个函数来提高可扩展性：
 function operate(array, ch) {
     if (array.length <= 0) {
         return "";
